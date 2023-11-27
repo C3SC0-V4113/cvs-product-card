@@ -7,6 +7,11 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/C3SC0-V4113/cvs-product-card",
+    "type": "git"
+  },
+  "homepage": "https://cescovalle.com/",
   "engines": {
     "node": ">=10"
   },
@@ -60,5 +65,11 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
     "typescript": "^5.3.2"
-  }
+  },
+  "keywords": [
+    "react",
+    "product",
+    "card",
+    "cesco"
+  ]
 }
