@@ -23,8 +23,8 @@ export const ProductImage = ({
   let imgToShow: string;
   if (img) {
     imgToShow = img;
-  } else if (product.img) {
-    imgToShow = product.img;
+  } else if (product) {
+    imgToShow = product.img ? product.img : noImage;
   } else {
     imgToShow = noImage;
   }

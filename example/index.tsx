@@ -5,7 +5,7 @@ import { ProductButtons, ProductCard, ProductImage, ProductTitle } from '../.';
 
 const product1 = {
   id: '1',
-  title: 'Coffee Mug - Card',
+  title: 'Coffee Mug - Card!',
   // img: "./coffee-mug.png",
 };
 
@@ -16,7 +16,7 @@ const App = () => {
         product={product1}
         initialValues={{
           count: 4,
-          // maxCount: 10,
+          maxCount: 10,
         }}
       >
         {() => (
